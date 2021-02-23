@@ -1,4 +1,4 @@
-# Parallax Effects webinar base application
+# Parallax Effects webinar | Base application
 
 Aplicación base para el webinar **Parallax Effects w/ Javascript @ Ironhack Madrid**
 
