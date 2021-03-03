@@ -83,6 +83,10 @@ h2 + hr {
     transition: all .3s;
 }
 
+.navigation.thin {
+    padding: 0;
+}
+
 .navigation img {
     height: 35px;
     margin: 5px 10px;
