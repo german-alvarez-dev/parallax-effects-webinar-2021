@@ -37,7 +37,7 @@
 
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col">
+                    <div class="col parallax">
                         <h1>UNDRY</h1>
                         <p>Interacción web avanzada_</p>
                     </div>
@@ -80,8 +80,8 @@
 
                     </div>
                     <div class="col-md-6 mobiles">
-                        <img data-speed="-.2" src="img/mobile-vertical1.png" alt="Teléfono">
-                        <img data-speed="-.3" src="img/mobile-vertical2.png" alt="Teléfono">
+                        <img src="img/mobile-vertical1.png" alt="Teléfono" class="parallax" data-speed=".3" data-axis="horizontal">
+                        <img src="img/mobile-vertical2.png" alt="Teléfono" class="parallax" data-speed=".2" data-axis="horizontal">
                     </div>
                 </div>
             </div>
@@ -104,9 +104,9 @@
 
                     <div class="col-sm-4 scroll-inertia-effect">
 
-                        <img src="img/msg1.png" alt="Mensaje">
-                        <img src="img/msg2.png" alt="Mensaje">
-                        <img src="img/msg3.png" alt="Mensaje">
+                        <img src="img/msg1.png" alt="Mensaje" class="parallax" data-speed="-.3" data-axis="vertical">
+                        <img src="img/msg2.png" alt="Mensaje" class="parallax" data-speed="-.2" data-axis="horizontal">
+                        <img src="img/msg3.png" alt="Mensaje" class="parallax" data-speed=".1" data-axis="horizontal">
                         <img src="img/movil0.jpg" alt="Móvil">
 
                     </div>
@@ -133,7 +133,7 @@
 
                 <div class="slider">
                     <div class="slider-track">
-                        <ul>
+                        <ul class="parallax" data-speed=".8" data-axis="horizontal">
                             <li><img src="img/slide1.jpg" alt="Imagen de trabajo"></li>
                             <li><img src="img/slide2.jpg" alt="Imagen de trabajo"></li>
                             <li><img src="img/slide3.jpg" alt="Imagen de trabajo"></li>
@@ -156,10 +156,10 @@
 
                     <div class="col-sm-4">
 
-                        <img src="img/movil1.png" alt="Movil">
-                        <img src="img/movil2.png" alt="Movil">
-                        <img src="img/movil3.png" alt="Movil">
-                        <img src="img/movil4.png" alt="Movil">
+                        <img src="img/movil1.png" alt="Movil" class="mobile-inertia" data-speed="0">
+                        <img src="img/movil2.png" alt="Movil" class="mobile-inertia" data-speed=".05">
+                        <img src="img/movil3.png" alt="Movil" class="mobile-inertia" data-speed=".08">
+                        <img src="img/movil4.png" alt="Movil" class="mobile-inertia" data-speed=".11">
 
                     </div>
 
@@ -176,6 +176,8 @@
         </section>
 
     </main>
+
+    <script src="js/script.js"></script>
 
 </body>
 
