@@ -8,4 +8,3 @@ Aplicación final del webinar **Parallax Effects w/ Javascript @ Ironhack Madrid
 - Selecciona **_Download ZIP_**
 - Descarga y descomprime los archivos
 
-⚠️ No olvides instalar el programa [Visual Studio Code](https://code.visualstudio.com/) en el portátil con el que vengas al campus!
